@@ -30,10 +30,10 @@ const observer = new IntersectionObserver((entries, observer) => {
 
 const createGallery = async () => {
   await fetchImg(fetchImgOptions).then(({ data }) => {
-    const { totalHits, hits } = data;
-    if (totalHits || hits.length) {
+    const { total, hits } = data;
+    if (total || hits.length) {
       if (fetchImgOptions.page === 1) {
-        Notify.success(`Hooray! We found ${totalHits} images.`);
+        Notify.success(`Hooray! We found ${total} images.`);
       }
       initialData.hits = hits;
       markup(hits);
