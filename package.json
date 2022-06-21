@@ -1,22 +1,22 @@
 {
-  "name": "goit-js-hw-11",
+  "name": "search-images-api-pixabay-via-axios-async-fetch",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://AlenkaNahorna.github.io/goit-js-hw-11",
+  "homepage": "https://AlenkaNahorna.github.io/search-images-api-pixabay-via-axios-async-fetch",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /search-images-api-pixabay-via-axios-async-fetch/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlenkaNahorna/goit-js-hw-11.git"
+    "url": "git+https://github.com/AlenkaNahorna/search-images-api-pixabay-via-axios-async-fetch.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlenkaNahorna/goit-js-hw-11/issues"
+    "url": "https://github.com/AlenkaNahorna/search-images-api-pixabay-via-axios-async-fetch/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
